@@ -1,0 +1,28 @@
+body{
+    background-color: ghostwhite;
+}
+figure,h1{
+    text-align: center;
+}
+#information{
+    font-weight: bold;
+}
+#submit{
+    color: maroon;
+}
+section{
+    font-family: initial;
+    font-style: italic;
+    font-weight: bolder;
+}
+p{
+    color: orangered;
+}
+@media(max-width:600px) { body{background-color:rgb(170, 177, 181);}
+h1{
+        color: darkslateblue;
+    }
+    p{
+        color: aliceblue;
+    }
+}
